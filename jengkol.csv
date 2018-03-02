@@ -1,5 +1,5 @@
 title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargajual,profit,sku,kondisi
-Jual Sepatu Safety / Boot Casual Pria - DM 118 Murah,sepatu-safety-boot-casual-pria-dm-118,"
+Jual Sepatu Safety / Boot Casual Pria - RR 024 Murah,rr-024,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -15,19 +15,19 @@ Jual Sepatu Safety / Boot Casual Pria - DM 118 Murah,sepatu-safety-boot-casual-p
         <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
         <span>
          <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
           </a>
          </label>
         </span>
         <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
+        {% include shareit.html %}
        </div><!--/product-information-->
       </div>
      </div><!--/product-details-->
@@ -47,7 +47,7 @@ Jual Sepatu Safety / Boot Casual Pria - DM 118 Murah,sepatu-safety-boot-casual-p
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Safety / Boot Casual Pria - DM 118 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : DM 118<br/>Warna : HITAM<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Safety / Boot Casual Pria - RR 024 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan SINTETIS.<br/>Kode : RR 024<br/>Warna : TAN<br/>Bahan : SINTETIS<br/>Ukuran : 38 ~ 43<br/>Berat : 1100 gram<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p><b>Gambar lain :</b></p>
@@ -60,11 +60,9 @@ Jual Sepatu Safety / Boot Casual Pria - DM 118 Murah,sepatu-safety-boot-casual-p
                     </div>
                     <br/>
 
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
          Lokasi : Bandung</p>
-
-         {% include share.html %}
 
          {% include disqus.html %}
          
@@ -72,8 +70,8 @@ Jual Sepatu Safety / Boot Casual Pria - DM 118 Murah,sepatu-safety-boot-casual-p
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-10-16,html,sepatu-safety-pria,catenzo,sepatu-safety-pria,catenzo,"Sepatu Safety Pria Bahan KULIT, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/239-dm-118.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dm-118-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dm-118-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dm-118-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dm-118-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dm-118-e.jpg,Sepatu Safety / Boot Casual Pria - DM 118,Rp 312.400,Rp 365.900,Rp 53.500,DM 118,Baru
-Jual Sepatu Safety / Boot Casual Pria - RI 028 Murah,sepatu-safety-boot-casual-pria-ri-028,"
+     </div><!--/category-tab-->",2018-02-25,html,sepatu-safety-pria,catenzo,sepatu-safety-pria,catenzo,"Sepatu Safety Pria Bahan SINTETIS, Ukuran 38 ~ 43, Warna TAN",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/rr-024.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/rr-024-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/rr-024-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/rr-024-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/rr-024-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/rr-024-e.jpg,Sepatu Safety / Boot Casual Pria - RR 024,Rp 239.900,Rp 275.900,Rp 36.000,RR 024,Baru
+Jual Sepatu Safety / Boot Casual Pria - MP 191 Murah,mp-191,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -89,19 +87,19 @@ Jual Sepatu Safety / Boot Casual Pria - RI 028 Murah,sepatu-safety-boot-casual-p
         <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
         <span>
          <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
           </a>
          </label>
         </span>
         <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
+        {% include shareit.html %}
        </div><!--/product-information-->
       </div>
      </div><!--/product-details-->
@@ -121,7 +119,7 @@ Jual Sepatu Safety / Boot Casual Pria - RI 028 Murah,sepatu-safety-boot-casual-p
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Safety / Boot Casual Pria - RI 028 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : RI 028<br/>Warna : HITAM<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Safety / Boot Casual Pria - MP 191 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : MP 191<br/>Warna : HITAM<br/>Bahan : KULIT<br/>Ukuran : 39 ~ 43<br/>Berat : 1100 gram<br/>Info Lainnya = SOL : RUBBER (HAMMER)<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p><b>Gambar lain :</b></p>
@@ -134,11 +132,9 @@ Jual Sepatu Safety / Boot Casual Pria - RI 028 Murah,sepatu-safety-boot-casual-p
                     </div>
                     <br/>
 
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
          Lokasi : Bandung</p>
-
-         {% include share.html %}
 
          {% include disqus.html %}
          
@@ -146,8 +142,8 @@ Jual Sepatu Safety / Boot Casual Pria - RI 028 Murah,sepatu-safety-boot-casual-p
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-10-16,html,sepatu-safety-pria,catenzo,sepatu-safety-pria,catenzo,"Sepatu Safety Pria Bahan KULIT, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/240-ri-028.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ri-028-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ri-028-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ri-028-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ri-028-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ri-028-e.jpg,Sepatu Safety / Boot Casual Pria - RI 028,Rp 222.400,Rp 260.900,Rp 38.500,RI 028,Baru
-Jual Sepatu Safety / Boot Casual Pria - LI 056 Murah,sepatu-safety-boot-casual-pria-li-056,"
+     </div><!--/category-tab-->",2018-02-25,html,sepatu-safety-pria,catenzo,sepatu-safety-pria,catenzo,"Sepatu Safety Pria Bahan KULIT, Ukuran 39 ~ 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/mp-191.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mp-191-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mp-191-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mp-191-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mp-191-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mp-191-e.jpg,Sepatu Safety / Boot Casual Pria - MP 191,Rp 325.900,Rp 374.900,Rp 49.000,MP 191,Baru
+Jual Sepatu Safety / Boot Casual Pria - MP 187 Murah,mp-187,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -163,19 +159,19 @@ Jual Sepatu Safety / Boot Casual Pria - LI 056 Murah,sepatu-safety-boot-casual-p
         <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
         <span>
          <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
           </a>
          </label>
         </span>
         <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
+        {% include shareit.html %}
        </div><!--/product-information-->
       </div>
      </div><!--/product-details-->
@@ -195,7 +191,7 @@ Jual Sepatu Safety / Boot Casual Pria - LI 056 Murah,sepatu-safety-boot-casual-p
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Safety / Boot Casual Pria - LI 056 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : LI 056<br/>Warna : HITAM<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Safety / Boot Casual Pria - MP 187 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : MP 187<br/>Warna : COKLAT<br/>Bahan : KULIT<br/>Ukuran : 39 ~ 43<br/>Berat : 1100 gram<br/>Info Lainnya = SOL : RUBBER (MX)<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p><b>Gambar lain :</b></p>
@@ -208,11 +204,9 @@ Jual Sepatu Safety / Boot Casual Pria - LI 056 Murah,sepatu-safety-boot-casual-p
                     </div>
                     <br/>
 
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
          Lokasi : Bandung</p>
-
-         {% include share.html %}
 
          {% include disqus.html %}
          
@@ -220,8 +214,8 @@ Jual Sepatu Safety / Boot Casual Pria - LI 056 Murah,sepatu-safety-boot-casual-p
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-10-16,html,sepatu-safety-pria,catenzo,sepatu-safety-pria,catenzo,"Sepatu Safety Pria Bahan KULIT, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/241-li-056.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-056-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-056-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-056-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-056-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-056-e.jpg,Sepatu Safety / Boot Casual Pria - LI 056,Rp 248.900,Rp 291.900,Rp 43.000,LI 056,Baru
-Jual Sepatu Safety / Boot Casual Pria - DM 102 Murah,sepatu-safety-boot-casual-pria-dm-102,"
+     </div><!--/category-tab-->",2018-02-25,html,sepatu-safety-pria,catenzo,sepatu-safety-pria,catenzo,"Sepatu Safety Pria Bahan KULIT, Ukuran 39 ~ 43, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/mp-187.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mp-187-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mp-187-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mp-187-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mp-187-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mp-187-e.jpg,Sepatu Safety / Boot Casual Pria - MP 187,Rp 285.900,Rp 328.900,Rp 43.000,MP 187,Baru
+Jual Sepatu Safety / Boot Casual Pria - RI 028 Murah,ri-028,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -237,19 +231,19 @@ Jual Sepatu Safety / Boot Casual Pria - DM 102 Murah,sepatu-safety-boot-casual-p
         <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
         <span>
          <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
           </a>
          </label>
         </span>
         <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
+        {% include shareit.html %}
        </div><!--/product-information-->
       </div>
      </div><!--/product-details-->
@@ -269,7 +263,7 @@ Jual Sepatu Safety / Boot Casual Pria - DM 102 Murah,sepatu-safety-boot-casual-p
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Safety / Boot Casual Pria - DM 102 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : DM 102<br/>Warna : HITAM<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Safety / Boot Casual Pria - RI 028 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : RI 028<br/>Warna : HITAM<br/>Bahan : KULIT<br/>Ukuran : 38 ~ 43<br/>Berat : 1400 gram<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p><b>Gambar lain :</b></p>
@@ -282,11 +276,9 @@ Jual Sepatu Safety / Boot Casual Pria - DM 102 Murah,sepatu-safety-boot-casual-p
                     </div>
                     <br/>
 
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
          Lokasi : Bandung</p>
-
-         {% include share.html %}
 
          {% include disqus.html %}
          
@@ -294,8 +286,8 @@ Jual Sepatu Safety / Boot Casual Pria - DM 102 Murah,sepatu-safety-boot-casual-p
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-10-16,html,sepatu-safety-pria,catenzo,sepatu-safety-pria,catenzo,"Sepatu Safety Pria Bahan KULIT, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/242-dm-102.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dm-102-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dm-102-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dm-102-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dm-102-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dm-102-e.jpg,Sepatu Safety / Boot Casual Pria - DM 102,Rp 241.900,Rp 283.900,Rp 42.000,DM 102,Baru
-Jual Sepatu Safety / Boot Casual Pria - LI 065 Murah,sepatu-safety-boot-casual-pria-li-065,"
+     </div><!--/category-tab-->",2018-02-25,html,sepatu-safety-pria,catenzo,sepatu-safety-pria,catenzo,"Sepatu Safety Pria Bahan KULIT, Ukuran 38 ~ 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ri-028.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ri-028-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ri-028-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ri-028-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ri-028-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ri-028-e.jpg,Sepatu Safety / Boot Casual Pria - RI 028,Rp 224.900,Rp 258.900,Rp 34.000,RI 028,Baru
+Jual Sepatu Safety / Boot Casual Pria - DM 118 Murah,dm-118,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -311,19 +303,19 @@ Jual Sepatu Safety / Boot Casual Pria - LI 065 Murah,sepatu-safety-boot-casual-p
         <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
         <span>
          <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
           </a>
          </label>
         </span>
         <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
+        {% include shareit.html %}
        </div><!--/product-information-->
       </div>
      </div><!--/product-details-->
@@ -343,7 +335,7 @@ Jual Sepatu Safety / Boot Casual Pria - LI 065 Murah,sepatu-safety-boot-casual-p
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Safety / Boot Casual Pria - LI 065 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : LI 065<br/>Warna : HITAM<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Safety / Boot Casual Pria - DM 118 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : DM 118<br/>Warna : HITAM<br/>Bahan : KULIT<br/>Ukuran : 38 ~ 43<br/>Berat : 1400 gram<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p><b>Gambar lain :</b></p>
@@ -356,11 +348,9 @@ Jual Sepatu Safety / Boot Casual Pria - LI 065 Murah,sepatu-safety-boot-casual-p
                     </div>
                     <br/>
 
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
          Lokasi : Bandung</p>
-
-         {% include share.html %}
 
          {% include disqus.html %}
          
@@ -368,8 +358,8 @@ Jual Sepatu Safety / Boot Casual Pria - LI 065 Murah,sepatu-safety-boot-casual-p
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-10-16,html,sepatu-safety-pria,catenzo,sepatu-safety-pria,catenzo,"Sepatu Safety Pria Bahan KULIT, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/243-li-065.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-065-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-065-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-065-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-065-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-065-e.jpg,Sepatu Safety / Boot Casual Pria - LI 065,Rp 271.400,Rp 317.900,Rp 46.500,LI 065,Baru
-Jual Sepatu Safety / Boot Casual Pria - DM 119 Murah,sepatu-safety-boot-casual-pria-dm-119,"
+     </div><!--/category-tab-->",2018-02-25,html,sepatu-safety-pria,catenzo,sepatu-safety-pria,catenzo,"Sepatu Safety Pria Bahan KULIT, Ukuran 38 ~ 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/dm-118.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-118-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-118-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-118-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-118-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-118-e.jpg,Sepatu Safety / Boot Casual Pria - DM 118,Rp 315.900,Rp 363.900,Rp 48.000,DM 118,Baru
+Jual Sepatu Safety / Boot Casual Pria - FS 008 Murah,fs-008,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -385,19 +375,19 @@ Jual Sepatu Safety / Boot Casual Pria - DM 119 Murah,sepatu-safety-boot-casual-p
         <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
         <span>
          <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
           </a>
          </label>
         </span>
         <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
+        {% include shareit.html %}
        </div><!--/product-information-->
       </div>
      </div><!--/product-details-->
@@ -417,7 +407,7 @@ Jual Sepatu Safety / Boot Casual Pria - DM 119 Murah,sepatu-safety-boot-casual-p
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Safety / Boot Casual Pria - DM 119 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : DM 119<br/>Warna : TAN<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Safety / Boot Casual Pria - FS 008 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : FS 008<br/>Warna : HITAM<br/>Bahan : KULIT<br/>Ukuran : 39 ~ 43<br/>Berat : 1400 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p><b>Gambar lain :</b></p>
@@ -430,11 +420,9 @@ Jual Sepatu Safety / Boot Casual Pria - DM 119 Murah,sepatu-safety-boot-casual-p
                     </div>
                     <br/>
 
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
          Lokasi : Bandung</p>
-
-         {% include share.html %}
 
          {% include disqus.html %}
          
@@ -442,8 +430,8 @@ Jual Sepatu Safety / Boot Casual Pria - DM 119 Murah,sepatu-safety-boot-casual-p
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-10-16,html,sepatu-safety-pria,catenzo,sepatu-safety-pria,catenzo,"Sepatu Safety Pria Bahan KULIT, Ukuran 38 - 43, Warna TAN",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/244-dm-119.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dm-119-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dm-119-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dm-119-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dm-119-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dm-119-e.jpg,Sepatu Safety / Boot Casual Pria - DM 119,Rp 319.900,Rp 374.900,Rp 55.000,DM 119,Baru
-Jual Sepatu Boot Safety Kasual Pria - RRI 014 Murah,sepatu-boot-safety-kasual-pria-rri-014,"
+     </div><!--/category-tab-->",2018-02-25,html,sepatu-safety-pria,catenzo,sepatu-safety-pria,catenzo,"Sepatu Safety Pria Bahan KULIT, Ukuran 39 ~ 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/fs-008.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/fs-008-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/fs-008-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/fs-008-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/fs-008-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/fs-008-e.jpg,Sepatu Safety / Boot Casual Pria - FS 008,Rp 288.900,Rp 332.900,Rp 44.000,FS 008,Baru
+Jual Sepatu Safety / Boot Casual Pria - LI 056 Murah,li-056,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -459,19 +447,19 @@ Jual Sepatu Boot Safety Kasual Pria - RRI 014 Murah,sepatu-boot-safety-kasual-pr
         <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
         <span>
          <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
           </a>
          </label>
         </span>
         <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
+        {% include shareit.html %}
        </div><!--/product-information-->
       </div>
      </div><!--/product-details-->
@@ -491,7 +479,7 @@ Jual Sepatu Boot Safety Kasual Pria - RRI 014 Murah,sepatu-boot-safety-kasual-pr
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Boot Safety Kasual Pria - RRI 014 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : RRI 014<br/>Warna : HITAM<br/>Bahan : KULIT<br/>Ukuran : 39 - 43<br/>Berat : 1.4 kg<br/>Info Lainnya = SOL : KARET SUPER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Safety / Boot Casual Pria - LI 056 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : LI 056<br/>Warna : HITAM<br/>Bahan : KULIT<br/>Ukuran : 38 ~ 43<br/>Berat : 1600 gram<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p><b>Gambar lain :</b></p>
@@ -504,11 +492,9 @@ Jual Sepatu Boot Safety Kasual Pria - RRI 014 Murah,sepatu-boot-safety-kasual-pr
                     </div>
                     <br/>
 
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
          Lokasi : Bandung</p>
-
-         {% include share.html %}
 
          {% include disqus.html %}
          
@@ -516,8 +502,8 @@ Jual Sepatu Boot Safety Kasual Pria - RRI 014 Murah,sepatu-boot-safety-kasual-pr
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-10-17,html,sepatu-safety-pria,raindoz,sepatu-safety-pria,raindoz,"Sepatu Safety Pria Bahan KULIT, Ukuran 39 - 43, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/210-rri-014.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rri-014-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rri-014-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rri-014-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rri-014-d.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rri-014-e.jpg,Sepatu Boot Safety Kasual Pria - RRI 014,Rp 226.900,Rp 265.900,Rp 39.000,RRI 014,Baru
-Jual Sepatu Boot Safety Kasual Pria - RLI 001 Murah,sepatu-boot-safety-kasual-pria-rli-001,"
+     </div><!--/category-tab-->",2018-02-25,html,sepatu-safety-pria,catenzo,sepatu-safety-pria,catenzo,"Sepatu Safety Pria Bahan KULIT, Ukuran 38 ~ 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/li-056.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/li-056-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/li-056-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/li-056-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/li-056-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/li-056-e.jpg,Sepatu Safety / Boot Casual Pria - LI 056,Rp 254.900,Rp 293.900,Rp 39.000,LI 056,Baru
+Jual Sepatu Safety / Boot Casual Pria - DM 102 Murah,dm-102,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -533,19 +519,19 @@ Jual Sepatu Boot Safety Kasual Pria - RLI 001 Murah,sepatu-boot-safety-kasual-pr
         <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
         <span>
          <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
           </a>
          </label>
         </span>
         <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
+        {% include shareit.html %}
        </div><!--/product-information-->
       </div>
      </div><!--/product-details-->
@@ -565,7 +551,7 @@ Jual Sepatu Boot Safety Kasual Pria - RLI 001 Murah,sepatu-boot-safety-kasual-pr
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Boot Safety Kasual Pria - RLI 001 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : RLI 001<br/>Warna : HITAM<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Safety / Boot Casual Pria - DM 102 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : DM 102<br/>Warna : HITAM<br/>Bahan : KULIT<br/>Ukuran : 38 ~ 43<br/>Berat : 1400 gram<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p><b>Gambar lain :</b></p>
@@ -578,11 +564,9 @@ Jual Sepatu Boot Safety Kasual Pria - RLI 001 Murah,sepatu-boot-safety-kasual-pr
                     </div>
                     <br/>
 
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
          Lokasi : Bandung</p>
-
-         {% include share.html %}
 
          {% include disqus.html %}
          
@@ -590,8 +574,8 @@ Jual Sepatu Boot Safety Kasual Pria - RLI 001 Murah,sepatu-boot-safety-kasual-pr
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-10-17,html,sepatu-safety-pria,raindoz,sepatu-safety-pria,raindoz,"Sepatu Safety Pria Bahan KULIT, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/211-rli-001.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rli-001-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rli-001-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rli-001-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rli-001-d.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rli-001-e.jpg,Sepatu Boot Safety Kasual Pria - RLI 001,Rp 218.900,Rp 256.900,Rp 38.000,RLI 001,Baru
-Jual Sepatu Boot Safety Kasual Pria - RLI 012 Murah,sepatu-boot-safety-kasual-pria-rli-012,"
+     </div><!--/category-tab-->",2018-02-25,html,sepatu-safety-pria,catenzo,sepatu-safety-pria,catenzo,"Sepatu Safety Pria Bahan KULIT, Ukuran 38 ~ 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/dm-102.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-102-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-102-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-102-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-102-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-102-e.jpg,Sepatu Safety / Boot Casual Pria - DM 102,Rp 246.900,Rp 283.900,Rp 37.000,DM 102,Baru
+Jual Sepatu Safety / Boot Casual Pria - DM 119 Murah,dm-119,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -607,19 +591,19 @@ Jual Sepatu Boot Safety Kasual Pria - RLI 012 Murah,sepatu-boot-safety-kasual-pr
         <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
         <span>
          <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
           </a>
          </label>
         </span>
         <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
+        {% include shareit.html %}
        </div><!--/product-information-->
       </div>
      </div><!--/product-details-->
@@ -639,7 +623,7 @@ Jual Sepatu Boot Safety Kasual Pria - RLI 012 Murah,sepatu-boot-safety-kasual-pr
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Boot Safety Kasual Pria - RLI 012 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : RLI 012<br/>Warna : COKLAT<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Safety / Boot Casual Pria - DM 119 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : DM 119<br/>Warna : TAN<br/>Bahan : KULIT<br/>Ukuran : 38 ~ 43<br/>Berat : 1400 gram<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p><b>Gambar lain :</b></p>
@@ -652,11 +636,9 @@ Jual Sepatu Boot Safety Kasual Pria - RLI 012 Murah,sepatu-boot-safety-kasual-pr
                     </div>
                     <br/>
 
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
          Lokasi : Bandung</p>
-
-         {% include share.html %}
 
          {% include disqus.html %}
          
@@ -664,8 +646,8 @@ Jual Sepatu Boot Safety Kasual Pria - RLI 012 Murah,sepatu-boot-safety-kasual-pr
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-10-17,html,sepatu-safety-pria,raindoz,sepatu-safety-pria,raindoz,"Sepatu Safety Pria Bahan KULIT, Ukuran 38 - 43, Warna COKLAT",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/212-rli-012.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rli-012-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rli-012-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rli-012-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rli-012-d.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rli-012-e.jpg,Sepatu Boot Safety Kasual Pria - RLI 012,Rp 240.900,Rp 281.900,Rp 41.000,RLI 012,Baru
-Jual Sepatu Boot Safety Kasual Pria - RLI 033 Murah,sepatu-boot-safety-kasual-pria-rli-033,"
+     </div><!--/category-tab-->",2018-02-25,html,sepatu-safety-pria,catenzo,sepatu-safety-pria,catenzo,"Sepatu Safety Pria Bahan KULIT, Ukuran 38 ~ 43, Warna TAN",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/dm-119.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-119-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-119-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-119-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-119-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-119-e.jpg,Sepatu Safety / Boot Casual Pria - DM 119,Rp 322.900,Rp 371.900,Rp 49.000,DM 119,Baru
+Jual Sepatu Safety / Boot Casual Pria - LI 065 Murah,li-065,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -681,19 +663,19 @@ Jual Sepatu Boot Safety Kasual Pria - RLI 033 Murah,sepatu-boot-safety-kasual-pr
         <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
         <span>
          <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
           </a>
          </label>
         </span>
         <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
+        {% include shareit.html %}
        </div><!--/product-information-->
       </div>
      </div><!--/product-details-->
@@ -713,7 +695,7 @@ Jual Sepatu Boot Safety Kasual Pria - RLI 033 Murah,sepatu-boot-safety-kasual-pr
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Boot Safety Kasual Pria - RLI 033 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : RLI 033<br/>Warna : HITAM<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : KARET<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Safety / Boot Casual Pria - LI 065 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : LI 065<br/>Warna : HITAM<br/>Bahan : KULIT<br/>Ukuran : 38 ~ 43<br/>Berat : 1300 gram<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p><b>Gambar lain :</b></p>
@@ -726,11 +708,9 @@ Jual Sepatu Boot Safety Kasual Pria - RLI 033 Murah,sepatu-boot-safety-kasual-pr
                     </div>
                     <br/>
 
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
          Lokasi : Bandung</p>
-
-         {% include share.html %}
 
          {% include disqus.html %}
          
@@ -738,8 +718,8 @@ Jual Sepatu Boot Safety Kasual Pria - RLI 033 Murah,sepatu-boot-safety-kasual-pr
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-10-17,html,sepatu-safety-pria,raindoz,sepatu-safety-pria,raindoz,"Sepatu Safety Pria Bahan KULIT, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/213-rli-033.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rli-033-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rli-033-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rli-033-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rli-033-d.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rli-033-e.jpg,Sepatu Boot Safety Kasual Pria - RLI 033,Rp 240.900,Rp 281.900,Rp 41.000,RLI 033,Baru
-Jual Sepatu Boot Safety Kasual Pria - RMP 162 Murah,sepatu-boot-safety-kasual-pria-rmp-162,"
+     </div><!--/category-tab-->",2018-02-25,html,sepatu-safety-pria,catenzo,sepatu-safety-pria,catenzo,"Sepatu Safety Pria Bahan KULIT, Ukuran 38 ~ 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/li-065.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/li-065-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/li-065-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/li-065-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/li-065-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/li-065-e.jpg,Sepatu Safety / Boot Casual Pria - LI 065,Rp 273.900,Rp 314.900,Rp 41.000,LI 065,Baru
+Jual Sepatu Safety / Boot Casual Pria - DM 124 Murah,dm-124,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -755,19 +735,19 @@ Jual Sepatu Boot Safety Kasual Pria - RMP 162 Murah,sepatu-boot-safety-kasual-pr
         <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
         <span>
          <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
           </a>
          </label>
         </span>
         <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
+        {% include shareit.html %}
        </div><!--/product-information-->
       </div>
      </div><!--/product-details-->
@@ -787,7 +767,7 @@ Jual Sepatu Boot Safety Kasual Pria - RMP 162 Murah,sepatu-boot-safety-kasual-pr
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Boot Safety Kasual Pria - RMP 162 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : RMP 162<br/>Warna : COKLAT<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Safety / Boot Casual Pria - DM 124 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : DM 124<br/>Warna : COKLAT<br/>Bahan : KULIT<br/>Ukuran : 39 ~ 43<br/>Berat : 1300 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p><b>Gambar lain :</b></p>
@@ -800,11 +780,9 @@ Jual Sepatu Boot Safety Kasual Pria - RMP 162 Murah,sepatu-boot-safety-kasual-pr
                     </div>
                     <br/>
 
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
          Lokasi : Bandung</p>
-
-         {% include share.html %}
 
          {% include disqus.html %}
          
@@ -812,4 +790,436 @@ Jual Sepatu Boot Safety Kasual Pria - RMP 162 Murah,sepatu-boot-safety-kasual-pr
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-10-17,html,sepatu-safety-pria,raindoz,sepatu-safety-pria,raindoz,"Sepatu Safety Pria Bahan KULIT, Ukuran 38 - 43, Warna COKLAT",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/214-rmp-162.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rmp-162-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rmp-162-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rmp-162-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rmp-162-d.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rmp-162-e.jpg,Sepatu Boot Safety Kasual Pria - RMP 162,Rp 273.400,Rp 319.900,Rp 46.500,RMP 162,Baru
+     </div><!--/category-tab-->",2018-02-25,html,sepatu-safety-pria,catenzo,sepatu-safety-pria,catenzo,"Sepatu Safety Pria Bahan KULIT, Ukuran 39 ~ 43, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/dm-124.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-124-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-124-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-124-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-124-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-124-e.jpg,Sepatu Safety / Boot Casual Pria - DM 124,Rp 250.900,Rp 288.900,Rp 38.000,DM 124,Baru
+Jual Sepatu Safety / Boot Casual Pria - LI 066 Murah,li-066,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Sepatu Safety / Boot Casual Pria - LI 066 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : LI 066<br/>Warna : COKLAT<br/>Bahan : KULIT<br/>Ukuran : 38 ~ 43<br/>Berat : 1500 gram<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2018-02-25,html,sepatu-safety-pria,catenzo,sepatu-safety-pria,catenzo,"Sepatu Safety Pria Bahan KULIT, Ukuran 38 ~ 43, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/li-066.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/li-066-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/li-066-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/li-066-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/li-066-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/li-066-e.jpg,Sepatu Safety / Boot Casual Pria - LI 066,Rp 265.900,Rp 305.900,Rp 40.000,LI 066,Baru
+Jual Sepatu Safety / Boot Casual Pria - DM 126 Murah,dm-126,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Sepatu Safety / Boot Casual Pria - DM 126 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : DM 126<br/>Warna : TAN<br/>Bahan : KULIT<br/>Ukuran : 39 ~ 43<br/>Berat : 1300 gram<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2018-02-25,html,sepatu-safety-pria,catenzo,sepatu-safety-pria,catenzo,"Sepatu Safety Pria Bahan KULIT, Ukuran 39 ~ 43, Warna TAN",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/dm-126.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-126-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-126-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-126-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-126-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dm-126-e.jpg,Sepatu Safety / Boot Casual Pria - DM 126,Rp 277.900,Rp 319.900,Rp 42.000,DM 126,Baru
+Jual Sepatu Safety / Boot Casual Pria - MP 190 Murah,mp-190,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Sepatu Safety / Boot Casual Pria - MP 190 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : MP 190<br/>Warna : COKLAT<br/>Bahan : KULIT<br/>Ukuran : 39 ~ 43<br/>Berat : 1300 gram<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2018-02-25,html,sepatu-safety-pria,catenzo,sepatu-safety-pria,catenzo,"Sepatu Safety Pria Bahan KULIT, Ukuran 39 ~ 43, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/mp-190.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mp-190-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mp-190-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mp-190-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mp-190-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mp-190-e.jpg,Sepatu Safety / Boot Casual Pria - MP 190,Rp 272.900,Rp 313.900,Rp 41.000,MP 190,Baru
+Jual Sepatu Safety / Boot Casual Pria - RMP 189 Murah,rmp-189,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Sepatu Safety / Boot Casual Pria - RMP 189 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan KULIT.<br/>Kode : RMP 189<br/>Warna : COKLAT<br/>Bahan : KULIT<br/>Ukuran : 39 ~ 43<br/>Berat : 1600 gram<br/>Info Lainnya = SOL : KARET<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2018-02-26,html,sepatu-safety-pria,raindoz,sepatu-safety-pria,raindoz,"Sepatu Safety Pria Bahan KULIT, Ukuran 39 ~ 43, Warna COKLAT",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rmp-189.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rmp-189-a.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rmp-189-b.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rmp-189-c.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rmp-189-d.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rmp-189-e.jpg,Sepatu Safety / Boot Casual Pria - RMP 189,Rp 269.900,Rp 310.900,Rp 41.000,RMP 189,Baru
+Jual Sepatu Safety / Boot Casual Pria - RRR 026 Murah,rrr-026,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Sepatu Safety / Boot Casual Pria - RRR 026 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan SINTETIS.<br/>Kode : RRR 026<br/>Warna : TAN<br/>Bahan : SINTETIS<br/>Ukuran : 39 ~ 43<br/>Berat : 1700 gram<br/>Info Lainnya = SOL : KARET<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2018-02-26,html,sepatu-safety-pria,raindoz,sepatu-safety-pria,raindoz,"Sepatu Safety Pria Bahan SINTETIS, Ukuran 39 ~ 43, Warna TAN",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rrr-026.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrr-026-a.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrr-026-b.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrr-026-c.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrr-026-d.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrr-026-e.jpg,Sepatu Safety / Boot Casual Pria - RRR 026,Rp 216.900,Rp 249.900,Rp 33.000,RRR 026,Baru
+Jual Sepatu Safety / Boot Casual Pria - RRR 024 Murah,rrr-024,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Sepatu Safety / Boot Casual Pria - RRR 024 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Safety Pria ini terbuat dari bahan SINTETIS.<br/>Kode : RRR 024<br/>Warna : COKLAT<br/>Bahan : SINTETIS<br/>Ukuran : 39 ~ 43<br/>Berat : 1500 gram<br/>Info Lainnya = SOL : KARET<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2018-02-26,html,sepatu-safety-pria,raindoz,sepatu-safety-pria,raindoz,"Sepatu Safety Pria Bahan SINTETIS, Ukuran 39 ~ 43, Warna COKLAT",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rrr-024.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrr-024-a.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrr-024-b.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrr-024-c.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrr-024-d.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrr-024-e.jpg,Sepatu Safety / Boot Casual Pria - RRR 024,Rp 212.900,Rp 244.900,Rp 32.000,RRR 024,Baru
